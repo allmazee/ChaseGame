@@ -6,8 +6,8 @@ A game developed in Java where you run from artificial intelligence entities acr
 
 **Designations**:  
 `o` - position of a player (program user) on the map.  
-`#` - obstacle  
-`x` - enemy (artificial intelligence)  
+`#` - obstacle.  
+`x` - enemy (artificial intelligence).  
 `O` - target point the player must get to before the enemies reach the player. The player is considered to have reached the target cell if they stepped on its position.
 
 **Game rules**:
@@ -22,19 +22,19 @@ A game developed in Java where you run from artificial intelligence entities acr
 
 Game architecture:
 
-1. Field size, number of obstacles, number of enemies and game mode are entered into the program using command-line parameters
+1. The project was developed in Java using Maven.
 
-2. Enemies, obstacles, the player, and the target point are positioned on the field randomly.
+2. Field size, number of obstacles, number of enemies and game mode are entered into the program using command-line parameters.
 
-3. To make a move, the player shall enter a number in the console that corresponds to the movement direction A, W, D, S (left, upward, right, downward).
+3. Enemies, obstacles, the player, and the target point are positioned on the field randomly.
 
-4. If the player understands in the beginning or middle of the game that the target point is unreachable, they shall end the game by entering 9 (player loses).
+4. To make a move, the player shall enter a number in the console that corresponds to the movement direction A, W, D, S (left, upward, right, downward).
 
-5. Once the player has made a move, it is its enemy's turn to make a move towards the player.
+5. If the player understands in the beginning or middle of the game that the target point is unreachable, they shall end the game by entering 9 (player loses).
 
-6. In the development mode, each enemy's step shall be confirmed by the player by entering 8.
+6. Once the player has made a move, it is its enemy's turn to make a move towards the player.
 
-7. 
+7. In the development mode, each enemy's step shall be confirmed by the player by entering 8.
 
 ## Installation and launch
 
