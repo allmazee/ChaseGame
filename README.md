@@ -34,11 +34,13 @@ Game architecture:
 
 6. In the development mode, each enemy's step shall be confirmed by the player by entering 8.
 
+7. 
+
 ## Installation and launch
 
 To install the game execute the command in ChaseGame root folder:
 
-`mvn clean install`
+`mvn clean package`
 
 To launch the game execute the command in ChaseGame root folder:
 
